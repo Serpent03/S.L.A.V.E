@@ -1,9 +1,9 @@
 # we're gonna make an AI today, bois. and it's gonna be the damn best AI of them all
-# slave.hologram.iris. synchronous labyrinth for archived variable environment
-# advanced, sonorous, trained evironmentally reliable indie s k asterisk
+# slave.hologram.iris. synchronous labyrinth for archived variable environments
+# advanced, sonorous, trained evironmentally reliable indie s__ k__ asterisk
 
 import speech_recognition as sr
-import sys, pyaudio, os
+import sys, os
 from os import path
 import time
 import datetime
@@ -222,7 +222,8 @@ def processing(cmd): #main cpu for all process
                     eval(to_call + '(cmd.replace(word,""))') #send func_call() to required function
                     break
                 else:
-                    voice_listen()
+                    #voice_listen()
+                    pass
             #else:
                 # print(cmd, v) # use for debug
             

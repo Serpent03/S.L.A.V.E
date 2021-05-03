@@ -26,4 +26,13 @@ for st in musicList:
 
                 print(st)
             
-    
+num=int(input("Enter the number of people: "))
+count=1
+people=dict()
+for count in range(num):
+    name=input("name: ")
+    phone_number=input("phone number: ")
+print("\n\nName\tPhone Number")
+for num in people:
+    print(num,'\t\t',phone_number[num])
+
